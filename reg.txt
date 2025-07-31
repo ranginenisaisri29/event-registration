@@ -1,6 +1,7 @@
+//event
+
 <!DOCTYPE html>
 <html>
-msg
 <head>
   <title>Event Registration Form</title>
 </head>
