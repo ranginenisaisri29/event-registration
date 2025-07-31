@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Registration Form</title>
+</head>
+<body>
+  <center>
+    <h2>Event Registration Form</h2>
+    <form action="/submit" method="post">
+      <table>
+        <tr>
+          <td><label for="name">Full Name:</label></td>
+          <td><input type="text" id="name" name="name" required><br/><br/></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email Address:</label></td>
+          <td><input type="email" id="email" name="email" required><br/><br/></td>
+        </tr>
+        <tr>
+          <td><label for="phone">Phone Number:</label></td>
+          <td><input type="tel" id="phone" name="phone"><br/><br/></td>
+        </tr>
+        <tr>
+          <td><label for="event">Select Event:</label></td>
+          <td>
+            <select id="event" name="event">
+              <option value="workshop">Workshop</option>
+              <option value="seminar">Seminar</option>
+              <option value="webinar">Webinar</option>
+            </select><br/><br/>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="date">Event Date:</label></td>
+          <td><input type="date" id="date" name="date"><br/><br/></td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <input type="submit" value="Register">
+          </td>
+        </tr>
+      </table>
+    </form>
+  </center>
+</body>
+</html>
