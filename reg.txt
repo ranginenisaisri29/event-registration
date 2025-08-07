@@ -1,4 +1,5 @@
 // Event registration
+//form
 
 <!DOCTYPE html>
 <html>
